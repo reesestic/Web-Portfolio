@@ -24,7 +24,7 @@ const projects : Project[] = [
     {
         title: "BU Daily Crossword Website",
         description: "Fullstack website providing daily crosswords" +
-            "to BU students. Handles Routing, Student Authentication and Admin backend editing",
+            " to BU students. Handles Routing, Student Authentication and Admin backend editing",
         tech: ["Django", "HTML/CSS", "JavaScript", "PythonAnywhere"],
         image: "/crossword-website.png",
         alt: "DFP Crossword Website",
@@ -40,7 +40,7 @@ const projects : Project[] = [
     {
         title: "Responsive Personal Website",
         description: "Personal website written with responsive CSS" +
-            "conventions, media queries and multi-page React routed framework",
+            " conventions, media queries and multi-page React routed framework",
         tech: ["React", "TypeScript", "CSS", "Vercel"],
         image: "/personal-website.png",
         alt: "Website Photo",
@@ -56,8 +56,8 @@ const projects : Project[] = [
     {
         title: "Bunion Newspaper Website",
         description: "Manage Squarespace website for" +
-            "Bunion club and authenticate website used by" +
-            "300+ students monthly",
+            " Bunion club and authenticate website used by" +
+            " 300+ students monthly",
         tech: ["Squarespace", "CSS"],
         image: "/bunion.png",
         alt: "Bunion Website",
