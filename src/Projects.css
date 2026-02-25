@@ -56,6 +56,32 @@
     align-items: center;
 }
 
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.left-side a {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: clamp(1.1rem, 2vw, 1.5rem);
+    transition: transform 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+.left-side a:hover {
+    transform: scale(1.2);
+}
+
+
+footer a:hover {
+    color: white;
+    transform: scale(1.2);
+}
 .project-content {
     font-size: clamp(0.8rem, 1.3vw, 1rem);
 }

@@ -17,6 +17,9 @@ const projects : Project[] = [
             "Built relational schema using Supabase",
             "Created AI-driven task creation and atomization"
         ],
+        url: "https://github.com/reesestic/shark-hacks-study-website",
+        linkIcon: "fab fa-github",
+        linkText: "View Code on Github"
     },
     {
         title: "BU Daily Crossword Website",
@@ -29,7 +32,10 @@ const projects : Project[] = [
             "Integrated into existing large Django codebase",
             "Extended URL routing and view logic within MVC architecture",
             "Deployed Bug Report form with proper Django logic"
-        ]
+        ],
+        url: "https://github.com/reesestic/DailyFreePressBU",
+        linkIcon: "fab fa-github",
+        linkText: "View Code on Github"
     },
     {
         title: "Responsive Personal Website",
@@ -43,6 +49,9 @@ const projects : Project[] = [
             "Maintained responsiveness using best-practice conventions",
             "Managed React folders, media queries and Vercel deployment"
         ],
+        url: "https://github.com/reesestic/Web-Portfolio",
+        linkIcon: "fab fa-github",
+        linkText: "View Code on Github"
     },
     {
         title: "Bunion Newspaper Website",
@@ -57,8 +66,12 @@ const projects : Project[] = [
             "Coordinated with contributors to publish and format articles",
             "Customized layout and styling to maintain brand consistency"
         ],
+        url: "https://www.bunionpaper.com/",
+        linkIcon: "fas fa-external-link-alt",
+        linkText: "View Live Site"
     },
 ];
+
 
 export default function Projects() {
     return (

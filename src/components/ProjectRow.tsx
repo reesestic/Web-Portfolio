@@ -7,7 +7,15 @@ export default function ProjectRow({ project }: { project: Project }) {
             <h2 className="project-title">{project.title}</h2>
 
             <div className="project-layout">
-                <img className="project-img" src={project.image} alt={project.alt} />
+
+                <div className="left-side">
+
+                    <img className="project-img" src={project.image} alt={project.alt} />
+                    <a href={project.url} target="_blank" rel="noopener noreferrer">
+                        <i className={project.linkIcon}></i>
+                        {project.linkText}
+                    </a>
+                </div>
 
                 <div className="project-content">
 

@@ -5,4 +5,7 @@ export interface Project {
     image: string;
     alt: string;
     highlights: string[];
+    url: string;
+    linkIcon: string;
+    linkText: string;
 }
