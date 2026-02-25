@@ -1,3 +1,6 @@
+import type { Project } from "../../types/Project";
+import "../Projects.css";
+
 export default function ProjectRow({ project }: { project: Project }) {
     return (
         <section className="project-card">
