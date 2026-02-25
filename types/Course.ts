@@ -1,4 +1,4 @@
-export type Course {
+export type Course = {
     code: string;
     name: string;
     desc: { text?: string; bold?: string; text2?: string }[];
